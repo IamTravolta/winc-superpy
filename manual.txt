@@ -1,0 +1,44 @@
+# Manual
+
+In the SuperPy project, the following are the available command-line arguments (commands and options):
+
+Commands:
+- `buy`: Adds a new product to the inventory.
+- `sell`: Sells a product from the inventory.
+- `report`: Generates various types of reports.
+
+Options:
+For the `buy` command:
+- `--product-name`: Specifies the name of the product being bought.
+- `--price`: Specifies the price at which the product is being bought.
+- `--expiration-date`: Specifies the expiration date of the product (optional).
+
+For the `sell` command:
+- `--product-name`: Specifies the name of the product being sold.
+- `--price`: Specifies the price at which the product is being sold.
+
+For the `report` command:
+- `inventory`: Generates an inventory report.
+- `--now`: Generates a report for the current date.
+- `--yesterday`: Generates a report for the previous day.
+- `revenue`: Generates a revenue report.
+- `--yesterday`: Generates a revenue report for the previous day.
+- `--today`: Generates a revenue report for the current day.
+- `--date`: Generates a revenue report for a specific date (format: YYYY-MM-DD).
+- `profit`: Generates a profit report.
+- `--today`: Generates a profit report for the current day.
+
+Other options:
+- `--advance-time`: Advances the current date by the specified number of days.
+These command-line arguments allow users to interact with the SuperPy tool and perform operations such as buying and selling products, generating inventory, revenue, and profit reports, as well as manipulating the current date.
+
+
+
+Examples :
+python super.py buy --product-name apple --price 0.5 --expiration-date 2023-08-15
+python super.py sell --product-name apple --price 1.0
+python super.py report inventory --now
+python super.py report inventory --yesterday
+python super.py report revenue --today
+python super.py report revenue --date 2023-01-01
+python super.py --advance-time 3
