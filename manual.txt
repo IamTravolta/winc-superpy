@@ -42,3 +42,8 @@ python super.py report inventory --yesterday
 python super.py report revenue --today
 python super.py report revenue --date 2023-01-01
 python super.py --advance-time 3
+
+./superpy.py buy --product-name Apple --price 1.5 --expiration-date 2023-12-31 --quantity 10
+./superpy.py sell --product-name Apple --price 2.0 --quantity 5
+./superpy.py report inventory --now
+./superpy.py --advance-time 7 

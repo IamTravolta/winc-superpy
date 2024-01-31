@@ -1,0 +1,47 @@
+{
+  "winc-prod": {
+    "price": 10.0,
+    "expiration_date": "2030-08-08",
+    "quantity": 32
+  },
+  "apple": {
+    "price": 1.0,
+    "expiration_date": null,
+    "quantity": 3
+  },
+  "car": {
+    "price": 10.0,
+    "expiration_date": null,
+    "quantity": 0
+  },
+  "Apple": {
+    "price": 1.5,
+    "expiration_date": "2023-12-31",
+    "quantity": 5
+  },
+  "null": {
+    "price": null,
+    "expiration_date": null,
+    "quantity": 1
+  },
+  "benz": {
+    "price": 2.0,
+    "expiration_date": null,
+    "quantity": 0
+  },
+  "project done tanks lucky": {
+    "price": 2.0,
+    "expiration_date": null,
+    "quantity": 5
+  },
+  "project done medehoo is greeting": {
+    "price": 2.0,
+    "expiration_date": null,
+    "quantity": 5
+  },
+  "Happy new Year in advance": {
+    "price": 2.0,
+    "expiration_date": null,
+    "quantity": 5
+  }
+}
