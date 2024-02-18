@@ -16,7 +16,9 @@ def create_parser():
 
 ./superpy.py sell --product-name Apple --price 2.0 --quantity 5
 
-./superpy.py report inventory --now
+./superpy.py report-revenue
+
+./superpy.py report inventory
 
 ./superpy.py --advance-time 7 
 """
@@ -93,8 +95,8 @@ def main():
             # Use the functions from the report module
             report.generate_inventory_report(products, current_date)
         elif args.command == 'report-revenue':
-            result = report.generate_revenue_report(args)
-            print(result)
+            result = report.generate_revenue_report()
+            print(datetime.date.today())
         else:
             parser.print_help()
 

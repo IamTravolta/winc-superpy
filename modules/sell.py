@@ -37,7 +37,30 @@ def sell_product(args):
         # Save the updated product data to the JSON file
         with open('data/products.json', 'w') as json_file:
             json.dump(products, json_file, indent=2)
+            
+		# initialize sales json file if not exit.
+        loadNsave.initialize_json_file('data/sales.json')
+        
+		# Load existing sales data from JSON file
+        with open('data/sales.json', 'r') as json_file:
+            sales = json.load(json_file)
+            
+		# Initialize sales data for the current product
+        sale_data = {
+            'price': args.price,
+            'quantity': sold_quantity
+        }
+        
+        
+		# Add the sale data to the existing sales data
+        if args.product_name not in sales:
+            sales[args.product_name] = []
+        sales[args.product_name].append(sale_data)
 
+         # Save the updated sales data to the JSON file
+        with open('data/sales.json', 'w') as json_file:
+            json.dump(sales, json_file, indent=2)
+            
         # Log the sale in a CSV file
         with open('data/sales.csv', 'a', newline='') as csvfile:
             fieldnames = ['product name', 'date', 'price', 'quantity']

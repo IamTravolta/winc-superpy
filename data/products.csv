@@ -1,31 +1,13 @@
-product name,price,expiration date,quantity
-apple,0.5,,0
-apple,0.5,,9
-mango,0.5,20-02-2022,4
-,,,1
-,,,1
-car,50.0,2023-08-15,1
-car,50.0,,1
-car,50.0,,1
-car,50.0,,1
-car,50.0,2023-08-15,1
-cars,50.0,,1
-apple,1.0,,1
-,,,1
-,,,1
-apple,2023-12-17,1.0,1
-apple,2023-12-17,1.0,1
-winc-prod,2023-12-17,10.0,50
-winc-prod,2023-12-17,10.0,50
-car,2023-12-17,10.0,50
-winc-prod,2023-12-17,10.0,50
-winc-prod,2023-12-17,10.0,50
-winc-prod,2023-12-17,10.0,50
-winc-prod,2023-12-17,10.0,50
-winc-prod,2023-12-17,10.0,50
-Apple,2023-12-17,1.5,10
-,2023-12-18,,1
-benz,2023-12-18,2.0,5
-project done tanks lucky,2023-12-18,2.0,5
-project done medehoo is greeting,2023-12-18,2.0,5
-Happy new Year in advance,2023-12-18,2.0,5
+product name,date,price,quantity
+Oramge,2024-02-14,1.5,20
+Oramge,2024-02-14,1.5,20
+Mango,2024-02-14,1.0,10
+Mango,2024-02-14,1.0,10
+Car,2024-02-14,1000.0,5
+Apple,2024-02-14,1.5,20
+Apple,2024-02-14,1.5,30
+Banana,2024-02-14,2.6,30
+Apple,2024-02-14,1.5,10
+Apple,2024-02-15,1.5,10
+Apple,2024-02-15,1.5,10
+Apple,2024-02-15,1.5,10

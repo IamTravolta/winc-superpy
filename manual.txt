@@ -35,15 +35,14 @@ These command-line arguments allow users to interact with the SuperPy tool and p
 
 
 Examples :
-python super.py buy --product-name apple --price 0.5 --expiration-date 2023-08-15
-python super.py sell --product-name apple --price 1.0
-python super.py report inventory --now
-python super.py report inventory --yesterday
-python super.py report revenue --today
-python super.py report revenue --date 2023-01-01
-python super.py --advance-time 3
+python superpy.py buy --product-name apple --price 0.5 --expiration-date 2023-08-15
+python superpy.py sell --product-name apple --price 1.0
+python superpy.py report inventory --now
+python superpy.py report-revenue
+python superpy.py --advance-time 3
 
 ./superpy.py buy --product-name Apple --price 1.5 --expiration-date 2023-12-31 --quantity 10
 ./superpy.py sell --product-name Apple --price 2.0 --quantity 5
 ./superpy.py report inventory --now
+./superpy.py report-revenue
 ./superpy.py --advance-time 7 

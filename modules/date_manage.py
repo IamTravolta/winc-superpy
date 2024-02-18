@@ -53,19 +53,25 @@ def set_current_date(args):
         except ValueError:
             print("Invalid date format. Please provide the date in the format YYYY-MM-DD.")
 
-def advance_time(days):
+import datetime
+
+def advance_time(days_to_advance):
     """
-    Advance the current date by a specified number of days.
+    Advance the current date by the specified number of days.
 
     Parameters:
-    - days (int): The number of days to advance.
+    - days_to_advance (int): The number of days to advance.
 
     Returns:
     None
     """
-    current_date = get_current_date()
-    new_date = current_date + datetime.timedelta(days=days)
-    save_current_date(new_date)
+    try:
+        current_date = datetime.date.today()
+        new_date = current_date + datetime.timedelta(days=days_to_advance)
+        print(f"Time advanced by {days_to_advance} days. Current date is now: {new_date}")
+    except Exception as e:
+        print(f"Error advancing time: {str(e)}")
+
 
 def initialize_json_file(file_path):
     """

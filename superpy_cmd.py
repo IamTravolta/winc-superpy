@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import cmd
 import argparse
 from superpy_modules.buy import buy_product

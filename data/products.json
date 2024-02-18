@@ -1,47 +1,27 @@
 {
-  "winc-prod": {
-    "price": 10.0,
-    "expiration_date": "2030-08-08",
-    "quantity": 32
+  "Oramge": {
+    "price": 1.5,
+    "expiration_date": "2024-12-31",
+    "quantity": 40
   },
-  "apple": {
+  "Mango": {
     "price": 1.0,
-    "expiration_date": null,
-    "quantity": 3
+    "expiration_date": "2024-12-31",
+    "quantity": 20
   },
-  "car": {
-    "price": 10.0,
-    "expiration_date": null,
-    "quantity": 0
+  "Car": {
+    "price": 1000.0,
+    "expiration_date": "2024-12-31",
+    "quantity": 3
   },
   "Apple": {
     "price": 1.5,
-    "expiration_date": "2023-12-31",
-    "quantity": 5
+    "expiration_date": "2024-12-31",
+    "quantity": 55
   },
-  "null": {
-    "price": null,
-    "expiration_date": null,
-    "quantity": 1
-  },
-  "benz": {
-    "price": 2.0,
-    "expiration_date": null,
-    "quantity": 0
-  },
-  "project done tanks lucky": {
-    "price": 2.0,
-    "expiration_date": null,
-    "quantity": 5
-  },
-  "project done medehoo is greeting": {
-    "price": 2.0,
-    "expiration_date": null,
-    "quantity": 5
-  },
-  "Happy new Year in advance": {
-    "price": 2.0,
-    "expiration_date": null,
-    "quantity": 5
+  "Banana": {
+    "price": 2.6,
+    "expiration_date": "2024-12-31",
+    "quantity": 25
   }
 }
